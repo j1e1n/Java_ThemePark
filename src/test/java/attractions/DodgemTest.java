@@ -17,7 +17,6 @@ public class DodgemTest {
         visitor = new Visitor(9, 120.0, 5);
     }
 
-
     @Test
     public void hasName() {
         assertEquals("Bumper Cars", dodgems.getName());
